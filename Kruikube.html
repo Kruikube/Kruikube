@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Kruikube</title>
+    <meta
+      name="description"
+      content="Le Kruikube est un jouet en bois fait pour petits et grands dont la composition peut être aussi en plastique et en acier"
+    />
+    <meta property="og:title" content="Kruikube" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta
+      property="og:description"
+      content="Le Kruikube est un jouet en bois fait pour petits et grands dont la composition peut être aussi en plastique et en acier"
+    />
+    <meta property="og:url" content="#" />
+    <meta property="og:site_name" content="Kruikube" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Kruikube</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Bois</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Acier</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Plastique</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="module-content">
+      <article class="unit-wrapper">
+        <div class="unit-copy-wrapper">
+          <h1 class="headline d-flex py-2 justify-content-center">Kruikube</h1>
+          <h2 class="subhead text-center" role="presentation">
+            Kruikube Le Future du Jouet.
+          </h2>
+        </div>
+        <figure class="figure d-block mx-auto text-center">
+          <img
+            class="figure-img img-fluid"
+            alt="Kruicube en bois"
+            src="/assets/img/Img cube.PNG"
+          />
+          <figcaption class="figure-caption">
+            Kruikube en bois sur fond blanc
+          </figcaption>
+        </figure>
+        <div class="d-flex justify-content-center">
+            <p>
+                Kruikube est un jouet ludique en bois, créé en 2022 par notre équipe. Cet objet est facilement utilisable
+                par les adultes comme les enfants. Les matériaux utilisés peuvent également être en acier ou en Plastique.
+                Ils sont certifiés sans danger pour la santé. Son utilisation est légalement autorisée sur le territoire européen.
+                Aussi, il est possible de jouer en famille, en le jetant un peu partout dans la maison, les enfants adoreront courir après et
+                vous pourrez profiter de quelques instants de tranquilité comme avant lorsque vous étiez célibataires et libres comme l'air.
+                Si vous achetez plusieurs Kruikube, vous pourrez créer des constructions comme les Lego. C'est fort sympathique. 
+            </p>
+            </div>
+      </article>
+    </section>
+      <h3>Mettre le Kruikube dans la scène</h3>
+      <p>
+        On peux voir ça comme le monde 3D dans lequel on vas bosser. On vas
+        disposer des objets dans cette scène. On vas créer autant d’objets
+        que tu veux dans notre scène via les mesh.
+      </p>
+      <h3>Le Kruikube dans les mesh</h3>
+      <p>
+        Les mesh sont simplement les objets qui vont être présents dans
+        notre scène. Il nous faudra mettre de la lumière sur ces objets pour
+        les voir. Pour les voir, il faudra les filmer. Pour les filmer, il
+        nous faudra une caméra.
+      </p>
+      <h3>Intégrer le Kruikube dans la Camèra</h3>
+      <p>
+        La caméra va montrer un point de vue de notre scène. On va parler de
+        champs de vue, field of view (fov) en anglais, pour être précis. En
+        bougeant cette caméra, on vas faire rentrer ou sortir des objets de
+        ce champ de vue. C’est ce qu’on voit dans ce champ de vue de cette
+        caméra qui sera envoyé au moteur de rendu.
+      </p>
+      <h3>Le moteur de rendu pour le Kruikube</h3>
+      <p>
+        Le moteur de rendu prend la scène et la caméra en paramètre. Avec
+        ça, il t’affiche tout dans le canvas HTML5. Le moteur de rendu va
+        produire une image à chaque fois que notre écran est rafraichi. En
+        général, 60 images par secondes donc. C’est ça qui donne vie à notre
+        animation !
+      </p>
+     <h3>Comprendre la 3D avec three JS le Kruicube</h3>
+    <p>Avec un peu de connaissance en Javascript, on faire des choses incroyables en 3D avec Three Js C’est beaucoup plus simple que ça en a l’air et c’est giga cool !! Aujourd’hui, je vous apprends le Three JS en 5 minutes.</p>
+
+    <h3>C'est quoi le ThreeJs avec le Kruicube</h3>
+    <p>ThreeJs est une bibliothèque en Javascript, créée par Mr.doob, qui te permet de manipuler des objets 3D directement dans le navigateur. En fait, ce qu’il faut comprendre c’est que ThreeJS, via le Javascript, permet d’utiliser WebGL(Api pour affichage 2D/3D) dans un canvas HTML5.
+        WebGL est une API Javascript qui permet de créer du rendu graphique 2D et 3D. Un canvas est un composant HTML qui fait partie de la spécification HTML5 et qui permet d’afficher des rendus graphiques.
+        Donc en résumé, on a une librairie Javascript(ThreeJS) qui manipule une API Javascript pour faire du rendu graphique (WebGL) dans un composant HTML5. Facile !</p>
+    </div>
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a href="#" class="text-white">Page</a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <p class="text-white">Kruikube</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
