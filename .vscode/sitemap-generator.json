@@ -1,0 +1,25 @@
+{
+  "sitemap.xml": {
+    "Protocol": "https",
+    "DomainName": "kruikube-kruikube.com",
+    "Root": "./",
+    "IncludeExt": [
+      ".html",
+      ".php"
+    ],
+    "Exclude": [
+      ".history/*"
+    ],
+    "TagsToInclude": [
+      "priority",
+      "lastmod"
+    ],
+    "DefaultChangeFrequency": "monthly",
+    "TabCharacters": "\t",
+    "bIncludeWWW": true,
+    "bRemoveFileExtentions": false,
+    "bUseTrailingSlash": false,
+    "bAutomaticallyUpdateSitemap": true,
+    "bMinimized": false
+  }
+}
